@@ -35,8 +35,8 @@ jobs:
                   platforms: linux/amd64,linux/arm64
                   push: true
                   tags: |
-                      registry.mauriziocarella.it/mauriziocarella.it:latest
-                      registry.mauriziocarella.it/mauriziocarella.it:${{ github.ref_name }}
+                      registry.mauriziocarella.it/beam:latest
+                      registry.mauriziocarella.it/beam:${{ github.ref_name }}
                   build-args: |
                       APP_VERSION=${{ github.ref_name }}
 
