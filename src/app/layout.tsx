@@ -3,6 +3,7 @@ import type {PropsWithChildren} from 'react';
 import type {Metadata, Viewport} from 'next';
 import {generateMetadata} from '@/lib/site';
 import {SiteHead} from '@/components/Site/Head';
+import {Providers} from '@/components/Site/Providers';
 
 export const metadata: Metadata = generateMetadata();
 export const viewport: Viewport = {
@@ -12,10 +13,12 @@ export const viewport: Viewport = {
 
 const RootLayout = ({children}: Readonly<PropsWithChildren>) => {
 	return (
-		<html lang="en">
+		<html lang="en" suppressHydrationWarning>
 			<SiteHead />
 			<body>
-				<main className="flex-1 flex flex-col">{children}</main>
+				<Providers>
+					<main className="flex-1 flex flex-col">{children}</main>
+				</Providers>
 			</body>
 		</html>
 	);

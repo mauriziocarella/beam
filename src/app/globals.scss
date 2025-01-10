@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 @layer base {
+	:root {
+		--background: theme('colors.white');
+		--foreground: theme('colors.stone.900');
+		--border-color: theme('colors.gray.300')
+	}
+
+	[data-theme='dark'] {
+		--background: theme('colors.stone.800');
+		--foreground: theme('colors.white');
+		--border-color: theme('colors.stone.600')
+	}
+
 	html, body {
 		@apply h-full
 	}

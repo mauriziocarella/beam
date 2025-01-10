@@ -27,7 +27,7 @@ export default {
 				},
 			},
 			borderColor: {
-				DEFAULT: colors.gray[300],
+				DEFAULT: 'var(--border-color)',
 			},
 			gap: {
 				DEFAULT: defaultTheme.spacing[4],
