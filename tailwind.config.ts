@@ -12,6 +12,7 @@ export default {
 			colors: {
 				background: 'var(--background)',
 				foreground: 'var(--foreground)',
+				content: 'var(--content)',
 				primary: {
 					DEFAULT: '#8B5CF6',
 					50: '#B99DFA',
@@ -25,6 +26,20 @@ export default {
 					800: '#6222F3',
 					900: '#540FF2',
 					950: '#500DE9',
+				},
+				secondary: {
+					DEFAULT: '#FF00F7',
+					50: '#FF8AFB',
+					100: '#FF7AFB',
+					200: '#FF5CFA',
+					300: '#FF3DF9',
+					400: '#FF1FF8',
+					500: '#FF00F7',
+					600: '#EB00E3',
+					700: '#D600CF',
+					800: '#C200BC',
+					900: '#AD00A8',
+					950: '#A3009E',
 				},
 			},
 			borderColor: {
