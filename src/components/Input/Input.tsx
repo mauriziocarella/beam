@@ -8,7 +8,7 @@ export const Input = ({className, ...props}: InputProps) => {
 		<input
 			type="text"
 			className={clsx(
-				'bg-background border rounded p-2 outline-0 focus-visible:border-primary focus-visible:ring-1 focus-visible:ring-primary transition-all',
+				'bg-background border rounded p-2 outline-none focus-visible:border-primary focus-visible:ring-2 focus-visible:ring-primary transition-all',
 				className,
 			)}
 			{...props}
