@@ -17,12 +17,9 @@ const Home = () => {
 			<div className="flex flex-col gap w-full max-w-lg">
 				<Input type="text" value={value} onChange={onChange} autoFocus />
 
-				<QRCode
-					size={256}
-					value={value}
-					viewBox={`0 0 256 256`}
-					className={clsx('h-auto w-full max-w-64 mx-auto opacity-0 transition-opacity', value && 'opacity-100')}
-				/>
+				<div className={clsx('bg-white p-2 max-w-64 mx-auto rounded opacity-0 transition-opacity', value && 'opacity-100')}>
+					<QRCode size={256} value={value} viewBox={`0 0 256 256`} className={clsx('h-full w-full')} />
+				</div>
 			</div>
 		</div>
 	);

@@ -1,6 +1,5 @@
 import {type Config} from 'tailwindcss';
 import defaultTheme from 'tailwindcss/defaultTheme';
-import colors from 'tailwindcss/colors';
 
 export default {
 	content: [
@@ -11,6 +10,8 @@ export default {
 	theme: {
 		extend: {
 			colors: {
+				background: 'var(--background)',
+				foreground: 'var(--foreground)',
 				primary: {
 					DEFAULT: '#8B5CF6',
 					50: '#B99DFA',
