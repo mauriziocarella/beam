@@ -45,7 +45,7 @@ export default {
 			borderColor: {
 				DEFAULT: 'var(--border-color)',
 			},
-			gap: {
+			spacing: {
 				DEFAULT: defaultTheme.spacing[4],
 			},
 		},

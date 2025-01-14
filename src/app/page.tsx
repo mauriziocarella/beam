@@ -18,7 +18,7 @@ const Home = () => {
 
 	return (
 		<div className="flex-1 flex justify-center items-center">
-			<div className="flex flex-col gap-8 w-full max-w-lg">
+			<div className="flex flex-col gap w-full max-w-lg m">
 				<header className="flex flex-col items-center gap-2 text-center">
 					<Image src={logo} alt="Logo" className="max-w-12" />
 
@@ -30,7 +30,7 @@ const Home = () => {
 				</header>
 
 				<div className="flex flex-col gap w-full">
-					<p className="text-content">
+					<p className="text-content text-center">
 						Enter text or links below to share them with mobile phones via QR code. Alternatively, hit Save to generate
 						a direct URL that you can share with others!
 					</p>
