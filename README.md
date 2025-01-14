@@ -1,6 +1,6 @@
 # Beam
 
-<img src="src/assets/images/logo.svg" alt="Beam Logo" style="max-width: 200px;">
+<img src="src/assets/images/logo.svg" alt="Beam Logo" width="200">
 
 Beam is a minimalist web app that allows users to share text or links with mobile devices via QR codes or direct URLs.
 
